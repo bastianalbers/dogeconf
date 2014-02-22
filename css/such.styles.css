@@ -12,10 +12,14 @@ html, body {
 
 h1 {
     color:black;
-    font-size: 280px;
+    font-size: 200px;
     width: 100%;
     margin:0;
     text-align: center;
+}
+
+h1, h2 {
+    text-shadow: 0 0 3px rgba(255, 255, 0, 0.5);
 }
 
 #mc_embed_signup {
@@ -23,3 +27,18 @@ h1 {
     width: 60%;
     margin: 0 auto;
 }
+
+#mc_embed_signup form {
+    text-align: center !important;
+}
+
+#mc_embed_signup .mc-field-group input {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 512px) {
+    h1 { font-size: 100px; }
+
+    #mc_embed_signup { width: 90%; max-width: 300px; }
+}
+
