@@ -42,3 +42,28 @@ h1, h2 {
     #mc_embed_signup { width: 90%; max-width: 300px; }
 }
 
+.socialbuttons {
+    width: 100%;
+    text-align: center;
+    margin: 100px 0 0;
+}
+
+.social { 
+    display: inline;
+    min-width: 100px;
+    margin: 10px;
+    height: 40px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #333333;
+}
+.social.facebook {
+    background-image: url('../images/facebook.png');
+    padding: 10px 10px 10px 30px;
+
+}
+.social.twitter {
+    background-image: url('../images/twitter.png');
+    padding: 10px 10px 10px 45px;
+}
